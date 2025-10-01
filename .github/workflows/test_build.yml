@@ -38,4 +38,4 @@ jobs:
 
      - name: Test the built image
        run: |
-                  docker run --rm ghcr.io/${{ github. ayubidrissi}}/action:latest
+                  docker run --rm ghcr.io/${{ github.repository_owner }}/action:latest
